@@ -21,11 +21,11 @@ public class Zadanie8sda {
 
     private static WebDriver driver;
 
-    @BeforeAll
-    public static void setUp(){
-        driver = new ChromeDriver();
+   // @BeforeAll
+    //public static void setUp(){
+       // driver = new ChromeDriver();
         // driver.manage().window().maximize();
-        driver.navigate().to("https://www.bbc.com");
+       // driver.navigate().to("https://www.bbc.com");
     }
 
     @Test
